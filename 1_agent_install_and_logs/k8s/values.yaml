@@ -21,13 +21,8 @@ datadog:
     containerCollectAll: true
     containerCollectUsingFiles: true
   apm:
-    portEnabled: true
-    port: 8126    
-    socketEnabled: false
-  dogstatsd:
-    port: 8125	
-    useHostPort: true
-    nonLocalTraffic: true    
+    portEnabled: false  
+    socketEnabled: true  
   processAgent:
     enabled: true
     processCollection: true
